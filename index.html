@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisis de Caso: Amarilis S.A.C.</title>
+    
+    <!-- Google Fonts: Lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --primary-color: #0056b3;
+            --secondary-color: #007bff;
+            --background-color: #f8f9fa;
+            --card-bg-color: #ffffff;
+            --text-color: #343a40;
+            --light-gray: #e9ecef;
+            --quote-bg: #eef7ff;
+        }
+
+        body {
+            font-family: 'Lato', sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.7;
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 950px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        header h1 {
+            font-size: 2.8em;
+            font-weight: 900;
+            color: var(--primary-color);
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2em;
+            color: #6c757d;
+        }
+
+        .section-title {
+            display: flex;
+            align-items: center;
+            font-size: 1.8em;
+            color: var(--primary-color);
+            margin-bottom: 25px;
+            font-weight: 700;
+            border-bottom: 2px solid var(--light-gray);
+            padding-bottom: 10px;
+        }
+
+        .section-title i {
+            margin-right: 15px;
+            font-size: 1.2em;
+        }
+
+        .card {
+            background-color: var(--card-bg-color);
+            border-radius: 12px;
+            box-shadow: 0 4px 25px rgba(0, 0, 0, 0.07);
+            padding: 30px;
+            margin-bottom: 30px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .card h3 {
+            font-size: 1.3em;
+            color: var(--secondary-color);
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        blockquote {
+            background-color: var(--quote-bg);
+            border-left: 5px solid var(--secondary-color);
+            margin: 20px 0 0 0;
+            padding: 20px;
+            font-style: italic;
+            color: #495057;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        blockquote strong {
+            color: var(--primary-color);
+        }
+
+        .fuentes-card {
+            background: linear-gradient(135deg, #0056b3, #007bff);
+            color: white;
+        }
+
+        .fuentes-card h2 {
+            color: white;
+            border-bottom-color: rgba(255,255,255,0.3);
+        }
+
+        .fuentes-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        .fuentes-list li {
+            margin-bottom: 10px;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 12px 18px;
+            border-radius: 8px;
+            transition: background 0.3s ease;
+        }
+
+        .fuentes-list li:hover {
+            background: rgba(255, 255, 255, 0.25);
+        }
+
+        .fuentes-list a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+        }
+        
+        .fuentes-list a i {
+            margin-right: 12px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Análisis de Caso: Amarilis S.A.C.</h1>
+            <p>Diagnóstico y Propuesta de Solución para el Gobierno de TI</p>
+        </header>
+
+        <main>
+            <section id="problema">
+                <h2 class="section-title"><i class="fa-solid fa-triangle-exclamation"></i>1. Identificación del Problema</h2>
+                
+                <div class="card">
+                    <h3>¿Qué problemas actuales indican la falta de un gobierno de TI?</h3>
+                    <p>Los problemas clave son: proyectos retrasados, decisiones tecnológicas aisladas, falta de control sobre proveedores y gastos de TI sin alineación clara con los objetivos del negocio.</p>
+                    <blockquote>
+                        Esto es muy parecido a lo que le pasó a <strong>Migraciones del Perú</strong>, cuando su sistema de citas online colapsó porque no estaba preparado para la avalancha de gente que necesitaba pasaportes después de la pandemia. Simplemente, la tecnología no estaba lista para resolver una necesidad tan grande y urgente, lo que demuestra que faltaba una buena supervisión y planificación.
+                    </blockquote>
+                </div>
+
+                <div class="card">
+                    <h3>¿Qué riesgos enfrenta la empresa si no se implementa un marco de gobierno?</h3>
+                    <p>La empresa se arriesga a perder dinero en inversiones inútiles, dañar su reputación con clientes por proyectos fallidos y, finalmente, perder competitividad en el mercado.</p>
+                    <blockquote>
+                        Al igual que <strong>Migraciones</strong> sufrió una crisis de servicio que afectó a miles de ciudadanos, Amarilis podría enfrentar un colapso operativo que le haga perder la confianza de sus clientes en el crucial sector salud.
+                    </blockquote>
+                </div>
+            </section>
+
+            <section id="solucion">
+                <h2 class="section-title"><i class="fa-solid fa-lightbulb"></i>2. Propuesta de Solución Básica</h2>
+                
+                <div class="card">
+                    <h3>Sugiere una acción inicial para empezar con el Gobierno de TI.</h3>
+                    <p>Una acción inicial clave es crear un <strong>Comité de Gobierno de TI</strong>. Este comité reunirá a la gerencia y a los líderes de área para alinear las decisiones tecnológicas con las metas del negocio y asegurar que cada inversión tenga un propósito estratégico.</p>
+                    <blockquote>
+                         Si <strong>Migraciones</strong> hubiera tenido un comité así, probablemente habría identificado el riesgo del sistema de citas y asignado recursos para fortalecerlo antes de que fallara.
+                    </blockquote>
+                </div>
+                
+                <div class="card">
+                    <h3>¿Qué roles deberían participar en esta gobernanza?</h3>
+                    <p>Deben participar roles clave como el <strong>Gerente General</strong> (visión estratégica), el <strong>Jefe de TI</strong> (visión técnica) y los <strong>líderes de las áreas de negocio</strong> (operaciones, comercial, etc.), para garantizar que la tecnología resuelva problemas reales y genere valor tangible.</p>
+                </div>
+            </section>
+
+            <section id="fuentes">
+                <div class="card fuentes-card">
+                    <h2 class="section-title"><i class="fa-solid fa-book"></i>Fuentes de Referencia</h2>
+                    <ul class="fuentes-list">
+                        <li>
+                            <a href="https://www.infobae.com/america/peru/2022/04/11/por-que-faltan-pasaportes-en-el-peru-crisis-en-migraciones-afectan-a-miles-de-viajeros/" target="_blank">
+                                <i class="fa-solid fa-link"></i>Infobae: ¿Por qué faltan pasaportes en el Perú?
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.infobae.com/peru/2025/01/31/migraciones-se-queda-sin-sistema-en-el-aeropuerto-jorge-chavez-y-no-se-puede-tramitar-el-pasaporte-de-emergencia/" target="_blank">
+                                <i class="fa-solid fa-link"></i>Infobae: Falla de sistema en el Aeropuerto Jorge Chávez.
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://gestion.pe/peru/se-agudiza-crisis-de-entrega-de-pasaportes-por-culpa-de-migraciones-video-rmmn-noticia-2/" target="_blank">
+                                <i class="fa-solid fa-link"></i>Gestión: Se agudiza crisis de entrega de pasaportes.
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+    </div>
+
+</body>
+</html>
